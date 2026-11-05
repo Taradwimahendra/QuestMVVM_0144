@@ -37,3 +37,6 @@ fun FormSiswa(
 
         Column(
             modifier = Modifier.padding(isiRuang),
+            verticalArrangement = Arrangement.SpaceBetween,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {

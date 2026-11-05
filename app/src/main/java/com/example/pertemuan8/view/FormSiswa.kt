@@ -33,5 +33,7 @@ fun FormSiswa(
         { TopAppBar(title = { Text(stringResource(id = R.string.app_name), color = Color.White)},
             colors = TopAppBarDefaults.mediumTopAppBarColors(colorResource(id = R.color.purple_500))
         )
-        })
-}
+        }) { isiRuang ->
+
+        Column(
+            modifier = Modifier.padding(isiRuang),
